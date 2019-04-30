@@ -5,7 +5,7 @@ pubnub = new PubNub({ // Your PubNub keys here. Get them from https://dashboard.
   subscribeKey : 'demo'
 });
 
-Highcharts.chart('chart-container', { // Build the chart.
+var chart = Highcharts.chart('chart-container', { // Build the chart.
     colors: ['#660000', '#DDAABB', '#D02129'],
     chart: {
         plotBackgroundColor: null,
@@ -54,3 +54,14 @@ function publishVote(flavor) { // Publish a vote with PubNub.
         console.log(status, response);
     });
 };
+
+pubnub.addListener({
+    message: function(vote) {
+        var chartData = chart.series[0].data[vote.message];
+        chartData.update(chartData.y + 1); // Add vote.
+    },
+});
+
+pubnub.subscribe({
+    channels: [voteChannel] // Listen for votes.
+});
