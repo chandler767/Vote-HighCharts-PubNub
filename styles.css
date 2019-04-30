@@ -21,7 +21,7 @@ body {
 
 button {
 	height: 40px;
-    width: 160px;
+    width: 180px;
     text-align: center;
     font-size: 20px;
     color: #fff;
@@ -31,5 +31,3 @@ button {
     margin: 5px;
     border-radius: 5px;
 }
-
-
