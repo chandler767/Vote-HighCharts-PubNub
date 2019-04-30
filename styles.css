@@ -7,8 +7,8 @@ body {
 }
 
 #chart-container {
-	min-width: 350px;
-	height: 300px;
+	min-width: 200px;
+	height: 250px;
 	margin: 5 auto
 }
 
