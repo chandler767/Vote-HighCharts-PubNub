@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+}
+
+.page-container{
+    display: inline-block;
+}
+
+#chart-container {
+	min-width: 350px;
+	height: 300px;
+	margin: 5 auto
+}
+
+#buttons {
+	width: 100%;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 15px;
+}
+
+button {
+	height: 40px;
+    width: 160px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    line-height: 0;
+    background: #d02129;
+    border: 1px solid #d02127;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+
