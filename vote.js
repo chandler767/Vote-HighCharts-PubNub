@@ -29,18 +29,26 @@ var chart = Highcharts.chart('chart-container', { // Build the chart.
             showInLegend: true
         }
     },
+    subtitle: {
+        text: '* Refreshing page will reset chart.',
+        floating: true,
+        align: 'right',
+        x: -10,
+        verticalAlign: 'bottom',
+        y: -75
+    },
     series: [{
         name: 'Flavors',
         colorByPoint: true,
         data: [{
             name: 'Chocolate',
-            y: 10
+            y: 0
         }, {
             name: 'Vanilla',
-            y: 8
+            y: 0
         }, {
             name: 'Strawberry',
-            y: 7
+            y: 0
         }]
     }]
 });
