@@ -17,7 +17,7 @@ var chart = Highcharts.chart('chart-container', { // Build the chart.
         text: 'What\'s your favorite ice cream?'
     },
     tooltip: {
-        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+        pointFormat: '<b>{point.percentage:.1f}% - {point.y} Vote(s)</b>'
     },
     plotOptions: {
         pie: {
