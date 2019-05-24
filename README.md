@@ -1,5 +1,5 @@
 # Vote HighCharts PubNub
-Demo ice cream voting app using HighCharts and PubNub JavaScript V4 SDK.
+Demo ice cream voting app using a pie chart made with HighCharts and PubNub JavaScript V4 SDK.
 
 <a href="https://vote.chandlermayo.com">
     <img alt="Vote Now" src="https://www.pubnub.com/wp-content/uploads/2019/01/reqards-pen-icon.svg" width=100 height=100/>
