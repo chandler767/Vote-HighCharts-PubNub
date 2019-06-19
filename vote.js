@@ -1,10 +1,3 @@
-var voteChannel = "ice_cream_flavor_votes"; // Channel for counting votes.
-
-pubnub = new PubNub({ // Your PubNub keys here. Get them from https://dashboard.pubnub.com.
-  publishKey : 'demo',
-  subscribeKey : 'demo'
-});
-
 var chart = Highcharts.chart('chart-container', { // Build the chart.
     colors: ['#660000', '#DDAABB', '#D02129'],
     chart: {
@@ -51,6 +44,15 @@ var chart = Highcharts.chart('chart-container', { // Build the chart.
             y: 0
         }]
     }]
+});
+
+// PubNub Integration - Learn more: https://pubnub.com
+
+var voteChannel = "ice_cream_flavor_votes"; // Channel for counting votes.
+
+pubnub = new PubNub({ // Your PubNub keys here. Get them from https://dashboard.pubnub.com.
+  publishKey : 'demo',
+  subscribeKey : 'demo'
 });
 
 function publishVote(flavor) { // Publish a vote with PubNub.
