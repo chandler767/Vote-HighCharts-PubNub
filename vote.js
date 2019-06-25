@@ -35,13 +35,13 @@ var chart = Highcharts.chart('chart-container', { // Build the chart.
         colorByPoint: true,
         data: [{
             name: 'Chocolate',
-            y: 0
+            y: 1
         }, {
             name: 'Vanilla',
-            y: 0
+            y: 1
         }, {
             name: 'Strawberry',
-            y: 0
+            y: 1
         }]
     }]
 });
