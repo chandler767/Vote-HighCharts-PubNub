@@ -46,8 +46,6 @@ var chart = Highcharts.chart('chart-container', { // Build the chart.
     }]
 });
 
-// PubNub Integration - Learn more: https://pubnub.com
-
 var voteChannel = "ice_cream_flavor_votes"; // Channel for counting votes.
 
 pubnub = new PubNub({ // Your PubNub keys here. Get them from https://dashboard.pubnub.com.
