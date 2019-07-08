@@ -19,9 +19,9 @@ It makes it easy to add interactive, mobile-optimized charts to your web and mob
 
 ## Build Your Own JavaScript Chat
 
-Want to learn more about this project or build a clone from scratch? Check out the tutorial (coming soon).
+Want to learn more about this project or build a clone from scratch? [Check out the tutorial](https://www.pubnub.com/blog/realtime-voting-app-highcharts-audience-interaction/).
 
-<a href="https://www.pubnub.com/?devrel_gh=Vote-HighCharts-PubNub">
+<a href="https://www.pubnub.com/blog/realtime-voting-app-highcharts-audience-interaction/?devrel_gh=Vote-HighCharts-PubNub">
     <img alt="PubNub Blog" src="https://i.imgur.com/aJ927CO.png" width=260 height=98/>
 </a>
 
