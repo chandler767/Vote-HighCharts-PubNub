@@ -1,0 +1,42 @@
+<!-- Vote Demo using PubNub JavaScript V4 SDK and HighCharts-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" type="image/png" href="icon.png">
+        <meta name="description" content="Vote Demo using PubNub JavaScript V4 SDK and HighCharts.">
+        <meta name="keywords" content="JavaScript,PubNub,Chat,chat-room,chatting,SDK,PubSub-sdk,tutorial,vote,highcharts,high-charts,charts,demo">
+        <meta name="author" content="Chandler Mayo">
+        <meta property="og:title" content="Sawg Vote" />
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content="Vote Demo using PubNub JavaScript V4 SDK and HighCharts." />
+        <meta property="og:image" content="https://d2c805weuec6z7.cloudfront.net/Powered_By_PubNub.png" />
+        <meta property="og:url" content="https://vote.chandlermayo.com/" />
+        <meta property="og:site_name" content="Vote PubNub" />
+        <link rel="stylesheet" href="styles.css">
+        <title>Vote PubNub</title>
+    </head>
+    <body>
+        <div class="page-container">
+            <div id="buttons">
+              <button onClick="publishVote('0')">Vote Swag 1</button>
+              <button onClick="publishVote('1')">Vote Swag 2</button>
+              <button onClick="publishVote('2')">Vote Swag 3</button>
+              <button onClick="publishVote('2')">Vote Swag 4</button>
+              <button onClick="publishVote('2')">Vote Swag 5</button>
+              <button onClick="publishVote('2')">Vote Swag 6</button>
+              <button onClick="publishVote('2')">Vote Swag 7</button>
+              <button onClick="publishVote('2')">Vote Swag 8</button>
+              <button onClick="publishVote('2')">Vote Swag 9</button>
+              <button onClick="publishVote('2')">Vote Swag 10</button>
+              <button onClick="publishVote('2')">Vote Swag 11</button>
+              <button onClick="publishVote('2')">Vote Swag 12</button>
+            </div>
+            <p><a href="https://www.pubnub.com/?devrel_pbpn=vote_pubnub"><img src="https://d2c805weuec6z7.cloudfront.net/Powered_By_PubNub.png?devrel_pbpn=vote_pubnub" alt="Powered By PubNub" width="150" class="center"></a><p>
+            <script src="https://code.highcharts.com/highcharts.js"></script>
+            <script src="https://cdn.pubnub.com/sdk/javascript/pubnub.4.23.0.min.js"></script>
+            <script src="vote.js"></script>  
+        </div>
+   </body>
+</html>
